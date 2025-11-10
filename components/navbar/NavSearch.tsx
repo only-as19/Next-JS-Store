@@ -1,8 +1,8 @@
+import { Input } from "../ui/input"
+
 const NavSearch = () => {
   return (
-    <div>
-      NavSearch
-    </div>
+    <Input type="search" placeholder="Search Products.." className="max-w-2xs focus:max-w-xs transition-all duration-200 dark:bg-muted"></Input>
   )
 }
 
