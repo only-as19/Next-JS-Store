@@ -1,9 +1,16 @@
+import { FaCode } from "react-icons/fa";
+import { Button } from "../ui/button";
+import Link from "next/link";
+import { icons } from "lucide-react";
+
 const Logo = () => {
   return (
-    <div>
-      Logo
-    </div>
-  )
-}
+    <Button asChild size="icon">
+      <Link href="/">
+        <FaCode className="w-6 h-6" />
+      </Link>
+    </Button>
+  );
+};
 
-export default Logo
+export default Logo;
