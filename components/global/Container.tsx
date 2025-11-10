@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
 
 interface ContainerProps {
-    className:string;
+    className?:string;
     children:ReactNode
 }
 
