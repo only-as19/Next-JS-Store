@@ -24,10 +24,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <Navbar />
         <Provider>
+          <Navbar />
           <Container className="py-20">{children}</Container>
         </Provider>
       </body>
