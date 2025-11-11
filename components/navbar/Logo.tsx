@@ -1,7 +1,6 @@
 import { FaCode } from "react-icons/fa";
 import { Button } from "../ui/button";
 import Link from "next/link";
-import { icons } from "lucide-react";
 
 const Logo = () => {
   return (
