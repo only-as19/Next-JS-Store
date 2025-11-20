@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button"
+import Hero from "@/components/home/hero"
 const Home = () => {
   return (
     <div className="flex">
-      <h1 className="text-xl font-bold text-blue-500">Home</h1>
-      <Button variant={"outline"}>Click ME</Button>
+      <Hero/>
     </div>
   )
 }
